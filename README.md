@@ -11,6 +11,7 @@ This project is a full-stack application for managing blog posts. It includes an
 * POST /api/BlogPost: Create a new blog.
 * PUT /api/BlogPost/{id}: Update an existing blog.
 * DELETE /api/BlogPost/{id}: Delete a blog.
+  
 ## Frontend Application: Consumes the API and provides a user-friendly interface for managing blog posts.
 
 * Create: Add new blog posts.
@@ -40,6 +41,7 @@ This project is a full-stack application for managing blog posts. It includes an
 * .NET SDK: .NET Core 8 SDK
 * Node.js: Node.js (version 14.x or higher)
 * Angular CLI: Install globally using npm install -g @angular/cli
+* Set API url in BlogPostService (apiUrl = 'http://localhost:5097/api/blogpost';)
 
 ## Backend Setup : BlogManagementAPI Project
 
