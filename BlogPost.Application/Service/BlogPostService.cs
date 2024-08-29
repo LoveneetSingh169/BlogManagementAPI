@@ -79,7 +79,7 @@ namespace BlogManagement.Application.Service
                 // Return an empty list if the file is empty
                 return new List<BlogPost>();
             }
-            return JsonConvert.DeserializeObject<List<BlogPost>>(blogs);
+            return JsonConvert.DeserializeObject<List<BlogPost>>(blogs).OrderByDescending(s => s.Id).ToList();
         }
 
         private int GetPostId()
