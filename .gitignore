@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BlogManagement.API/bin/Debug/net8.0
+/BlogManagement.API/.vs
+/BlogManagement.API/obj
+/BlogManagement.Core/bin/Debug/net8.0
+/BlogManagement.Core/obj
+/BlogManagement.Data/bin/Debug/net8.0
+/BlogManagement.Data/obj
+/BlogManagement.Test/bin/Debug/net8.0
+/BlogManagement.Test/obj
+/BlogPost.Application/bin/Debug/net8.0
+/BlogPost.Application/obj
